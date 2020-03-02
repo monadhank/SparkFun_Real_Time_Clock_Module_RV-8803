@@ -32130,12 +32130,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_5MM"/>
 <part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
+<part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="166.116" y="11.43" size="2.54" layer="94" font="vector">Andy England</text>
-<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<text x="236.22" y="7.62" size="2.54" layer="94" font="vector">v11</text>
 <wire x1="0" y1="101.6" x2="248.92" y2="101.6" width="0.1524" layer="97" style="longdash"/>
 <text x="2.54" y="96.52" size="2.54" layer="97" font="vector">Connections</text>
 <text x="2.54" y="180.34" size="2.54" layer="97" font="vector">RV-8803 RTC</text>
@@ -32262,6 +32264,13 @@ disconnect power LED</text>
 </instance>
 <instance part="LOGO4" gate="G$1" x="116.332" y="3.556" smashed="yes"/>
 <instance part="LOGO5" gate="G$1" x="85.09" y="2.794" smashed="yes"/>
+<instance part="R6" gate="G$1" x="142.24" y="129.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="140.716" y="129.54" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="143.764" y="129.54" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="GND7" gate="1" x="142.24" y="119.38" smashed="yes">
+<attribute name="VALUE" x="142.24" y="119.126" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32319,6 +32328,11 @@ disconnect power LED</text>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="63.5" y1="129.54" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="124.46" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -32390,8 +32404,12 @@ disconnect power LED</text>
 <net name="CLKOE" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CLKOE"/>
-<wire x1="137.16" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
 <label x="149.86" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="144.78" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
+<junction x="142.24" y="144.78"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="8"/>

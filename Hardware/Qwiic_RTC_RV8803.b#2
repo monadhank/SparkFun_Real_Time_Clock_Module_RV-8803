@@ -4800,7 +4800,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="R1" pad="1"/>
 <contactref element="J3" pad="5"/>
 <wire x1="8.255" y1="6.15" x2="8.255" y2="7.405" width="0.2032" layer="1"/>
-<wire x1="10.8386" y1="13.0628" x2="10.8077" y2="13.0937" width="0.1778" layer="1"/>
 <via x="10.8077" y="13.0937" extent="1-16" drill="0.381"/>
 <wire x1="13.97" y1="3.81" x2="12.7" y2="5.08" width="0.2032" layer="16"/>
 <via x="12.7" y="5.08" extent="1-16" drill="0.381"/>

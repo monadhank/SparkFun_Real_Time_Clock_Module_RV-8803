@@ -4630,13 +4630,13 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$15" library="buzzard_labels" package="#INT5" value="" x="16.51" y="1.397" smashed="yes" rot="R90"/>
 <element name="U$16" library="buzzard_labels" package="#INT5" value="" x="16.51" y="1.397" smashed="yes" rot="MR90"/>
 <element name="U$17" library="buzzard_labels (1)" package="PWR7" value="" x="1.27" y="3.302" smashed="yes" rot="R90"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="12.7" y="20.574" smashed="yes" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="12.7" y="12" smashed="yes" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="23.495" y="23.495" smashed="yes" rot="MR0"/>
 <element name="U$18" library="buzzard_labels (2)" package="EVI1" value="" x="11" y="15.6" smashed="yes"/>
 <element name="U$19" library="buzzard_labels (2)" package="I2C0" value="" x="11.1" y="8.3" smashed="yes"/>
 <element name="U$20" library="buzzard_labels (3)" package="LED2" value="" x="6.29" y="7" smashed="yes" rot="MR0"/>
-<element name="U$21" library="buzzard_labels (4)" package="QWIIC_RTC0" value="" x="17" y="18.4" smashed="yes" rot="MR0"/>
-<element name="U$22" library="buzzard_labels (4)" package="_RV#88031" value="" x="17" y="17.1" smashed="yes" rot="MR0"/>
+<element name="U$21" library="buzzard_labels (4)" package="QWIIC_RTC0" value="" x="17" y="9.51" smashed="yes" rot="MR0"/>
+<element name="U$22" library="buzzard_labels (4)" package="_RV#88031" value="" x="17" y="8.21" smashed="yes" rot="MR0"/>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.54" y="6.35" smashed="yes"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.54" y="6.35" smashed="yes" rot="MR0"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="21.59" y="24.13" smashed="yes"/>

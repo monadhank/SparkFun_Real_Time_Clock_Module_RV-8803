@@ -165,7 +165,7 @@
 <wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="1.6" y="3.2" size="1.27" layer="16" font="vector" ratio="15" rot="MR270">v10</text>
+<text x="1.6" y="3.2" size="1.27" layer="16" font="vector" ratio="15" rot="MR270">v11</text>
 <dimension x1="0" y1="0" x2="0" y2="25.4" x3="-2.54" y3="12.7" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="27.94" textsize="1.016" textratio="15" layer="47" unit="inch"/>
 <text x="7.62" y="26.67" size="1.016" layer="47" font="vector" ratio="15">Units in Inches</text>
@@ -4645,6 +4645,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="12.7" y="22.86" smashed="yes"/>
 <element name="U$24" library="buzzard_labels (4)" package="_RV#88031" value="" x="-0.49" y="17.79" smashed="yes"/>
 <element name="U$25" library="buzzard_labels (5)" package="RTC0" value="" x="1.47" y="19.05" smashed="yes"/>
+<element name="R6" library="SparkFun-Resistors" package="0603" value="100k" x="24.13" y="3.81" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.892" y="3.81" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-07828" x="24.13" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="23.368" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -4694,6 +4699,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="23.6228" y="11.7508" extent="1-16" drill="0.381"/>
 <via x="23.6228" y="7.7508" extent="1-16" drill="0.381"/>
 <via x="21.6228" y="16.7508" extent="1-16" drill="0.381"/>
+<contactref element="R6" pad="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="8"/>
@@ -4785,7 +4791,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="CLKOE">
 <contactref element="U1" pad="4"/>
 <contactref element="J3" pad="8"/>
-<wire x1="21.59" y1="1.27" x2="21.59" y2="5.715" width="0.2032" layer="1"/>
+<wire x1="21.59" y1="1.27" x2="21.59" y2="3" width="0.2032" layer="1"/>
+<wire x1="21.59" y1="3" x2="21.59" y2="5.715" width="0.2032" layer="1"/>
 <wire x1="21.59" y1="5.715" x2="19.05" y2="8.255" width="0.2032" layer="1"/>
 <wire x1="16.51" y1="8.255" x2="16.1925" y2="8.5725" width="0.2032" layer="1"/>
 <wire x1="14.5415" y1="9.9822" x2="14.05" y2="10.4737" width="0.2032" layer="1"/>
@@ -4794,6 +4801,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="16.1925" y1="8.5725" x2="16.1925" y2="9.6075" width="0.2032" layer="1"/>
 <wire x1="15.8178" y1="9.9822" x2="14.5415" y2="9.9822" width="0.2032" layer="1"/>
 <wire x1="16.1925" y1="9.6075" x2="15.8178" y2="9.9822" width="0.2032" layer="1"/>
+<contactref element="R6" pad="2"/>
+<wire x1="24.13" y1="2.96" x2="21.63" y2="2.96" width="0.1778" layer="1"/>
+<wire x1="21.63" y1="2.96" x2="21.59" y2="3" width="0.1778" layer="1"/>
 </signal>
 <signal name="!EVI">
 <contactref element="S1" pad="1"/>
