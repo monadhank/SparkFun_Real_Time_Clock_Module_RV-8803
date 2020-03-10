@@ -18,7 +18,7 @@ Documentation
 
 Product Versions
 --------------
-* [BOB-16281](https://www.sparkfun.com/products/16281) - Original release.
+* [BOB-16281](https://www.sparkfun.com/products/16281) - Initial release.
 
 License Information
 -------------------
