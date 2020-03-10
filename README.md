@@ -2,7 +2,7 @@ SparkFun Real Time Clock RV-8803 (Qwiic)
 ========================================
 
 
-The SparkFun Qwiic Button is an I<sup>2</sup>C enabled button with a built-in LED, interrupts, variable I<sup>2</sup>C address, and onboard button queues.
+The SparkFun Real Time Clock RV-8803 is an I<sup>2</sup>C enabled RTC module with a host of alarm, interrupt and calibration features.
 
 Repository Contents
 -------------------
