@@ -1,6 +1,9 @@
-SparkFun Real Time Clock RV-8803 (Qwiic)
+SparkFun Real Time Clock Module - RV-8803 (Qwiic)
 ========================================
 
+![SparkFun Real Time Clock Module - RV-8803 (Qwiic)](https://cdn.sparkfun.com/assets/parts/1/4/9/6/8/16281-SparkFun_Real_Time_Clock_Module_-_RV-8803__Qwiic_-01.jpg)
+
+[*SparkFun Real Time Clock Module - RV-8803 (Qwiic)*](https://www.sparkfun.com/products/16281)
 
 The SparkFun Real Time Clock RV-8803 is an I<sup>2</sup>C enabled RTC module with a host of alarm, interrupt and calibration features.
 
